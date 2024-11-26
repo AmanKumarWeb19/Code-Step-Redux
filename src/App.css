@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+.cart-Wrapper{
+  height: 300px;
+  width: 600px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+.img-Wrapper img{
+  width: 100px;
+}
+.item{
+  float: left;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.btn-Wrapper button{
+  background-color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #000 0px 1px 5px;
+margin-top: 50px;
+
+}
+.text-Wrapper{
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.add-to-cart img{
+  width: 70px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  cursor: pointer;
+}
