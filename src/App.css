@@ -56,15 +56,22 @@
   padding: 20px;
   height: 70px;
 }
-.btn-Wrapper button{
+.btn-Wrapper button {
   background-color: red;
   border: none;
   padding: 10px;
   border-radius: 4px;
   color: white;
   box-shadow: #000 0px 1px 5px;
-margin-top: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
 
+.btn-Wrapper button:hover {
+  background-color: #5c9f9d;
+  color: white;
+  transform: scale(1.2); /* Make the button 20% larger */
 }
 .text-Wrapper{
 display: flex;
